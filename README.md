@@ -11,4 +11,12 @@ Yes, the functionality is crap, but this is still a concept that I will publish 
 
 # How to install? 
 
-Just copy the already compiled home-manager file to /usr/bin, and then use the "home-manager update" command
+Just copy the already compiled home-manager file to /usr/bin, and then use the "home_manager update" command
+
+# Do you want to compile it yourself? What the hell to do, keep the command
+
+```bash
+
+gcc -o home_manager home_manager.c
+
+```
